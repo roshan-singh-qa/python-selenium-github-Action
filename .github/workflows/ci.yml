@@ -1,11 +1,9 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: Python application
+name: Python-Selenium continuous Integration
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -27,12 +25,13 @@ jobs:
       - name: Test with pytest
         run: |
           pytest -v -s
-
-      - uses: mr-smithers-excellent/docker-build-push@v5
-        name: Build & push Docker image
-        with:
-          image: singhroshan/my_app
-          tags: v1.0, latest
-          registry: docker.io
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+#
+#      - uses: mr-smithers-excellent/docker-build-push@v5
+#        name: Build & push Docker image
+#        with:
+#          image: singhroshan/my_app
+#          tags: v1.0, latest
+#          registry: docker.io
+#          username: ${{ secrets.DOCKER_USERNAME }}
+#          password: ${{ secrets.DOCKER_PASSWORD }}
+#          #4279adf2-5f1e-4fa9-ba77-81b171202a25
