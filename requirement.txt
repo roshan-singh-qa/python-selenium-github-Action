@@ -1,0 +1,9 @@
+allure-pytest
+allure-python-commons
+pyyaml
+pytest
+pytest-rerunfailures
+pytest-xdist
+pyyaml
+selenium
+webdriver_manager
