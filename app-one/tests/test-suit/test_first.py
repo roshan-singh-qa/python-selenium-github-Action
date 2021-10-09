@@ -1,6 +1,6 @@
 def test_first_class():
     print("***************************************")
     print("***************************************")
-    print("This is having version :=> myapp:latest")
+    print("This is having version :==>>> myapp:latest")
     print("***************************************")
     print("***************************************")
