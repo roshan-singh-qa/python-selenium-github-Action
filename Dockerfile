@@ -1,4 +1,4 @@
-FROM python3.9
+FROM python
 COPY . /python-selenium-cicd
 WORKDIR /python-selenium-cicd
 COPY requirement.txt .
