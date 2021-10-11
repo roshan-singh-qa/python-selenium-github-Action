@@ -1,9 +1,18 @@
-def test_first_class():
-    print("***************************************")
-    print("***************************************")
+# def test_first_class():
+#     print("***************************************")
+#     print("***************************************")
+#
+#     print("This is having version :==>>> myapp:latest")
+#     print("***************************************")
+#     print("***************************************")
+
+
+def sayname():
 
 
 
-    print("This is having version :==>>> myapp:latest")
-    print("***************************************")
-    print("***************************************")
+    fname = input("Your Name")
+    return fname
+
+
+sayname()
